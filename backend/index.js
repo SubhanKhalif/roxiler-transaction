@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 app.use('/api', transactionRouter);
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5174;
 
 app.listen(PORT,() => {
     console.log('Server started at', PORT);
